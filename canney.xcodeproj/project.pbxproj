@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		51023322177BA28E00C254BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 51023321177BA28E00C254BF /* main.c */; };
 		51023324177BA28E00C254BF /* canney.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51023323177BA28E00C254BF /* canney.1 */; };
+		5175B20C177BA3170067484D /* IOBitmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 5175B20A177BA3170067484D /* IOBitmap.c */; };
+		5175B20E177BA4600067484D /* TestIO.c in Sources */ = {isa = PBXBuildFile; fileRef = 5175B20D177BA4600067484D /* TestIO.c */; };
+		5175B214177BA61C0067484D /* canny.c in Sources */ = {isa = PBXBuildFile; fileRef = 5175B213177BA61C0067484D /* canny.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,11 @@
 		5102331E177BA28E00C254BF /* canney */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = canney; sourceTree = BUILT_PRODUCTS_DIR; };
 		51023321177BA28E00C254BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		51023323177BA28E00C254BF /* canney.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = canney.1; sourceTree = "<group>"; };
+		5175B20A177BA3170067484D /* IOBitmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOBitmap.c; sourceTree = "<group>"; };
+		5175B20B177BA3170067484D /* IOBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOBitmap.h; sourceTree = "<group>"; };
+		5175B20D177BA4600067484D /* TestIO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestIO.c; sourceTree = "<group>"; };
+		5175B212177BA60C0067484D /* canny.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = canny.h; sourceTree = "<group>"; };
+		5175B213177BA61C0067484D /* canny.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = canny.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,12 @@
 		51023320177BA28E00C254BF /* canney */ = {
 			isa = PBXGroup;
 			children = (
+				5175B20D177BA4600067484D /* TestIO.c */,
 				51023321177BA28E00C254BF /* main.c */,
+				5175B20A177BA3170067484D /* IOBitmap.c */,
+				5175B20B177BA3170067484D /* IOBitmap.h */,
+				5175B212177BA60C0067484D /* canny.h */,
+				5175B213177BA61C0067484D /* canny.c */,
 				51023323177BA28E00C254BF /* canney.1 */,
 			);
 			path = canney;
@@ -118,6 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				51023322177BA28E00C254BF /* main.c in Sources */,
+				5175B20C177BA3170067484D /* IOBitmap.c in Sources */,
+				5175B20E177BA4600067484D /* TestIO.c in Sources */,
+				5175B214177BA61C0067484D /* canny.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +232,7 @@
 				51023329177BA28E00C254BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
